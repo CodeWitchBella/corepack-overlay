@@ -10,7 +10,7 @@
   in {
     overlays = {
       default = overlay;
-      rust-overlay = overlay;
+      corepack-overlay = overlay;
     };
   };
 }
